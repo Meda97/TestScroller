@@ -1,0 +1,18 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+
+    <Grid x:Key="nalleimage">
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="53"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="53"/>
+        </Grid.RowDefinitions>
+
+        <Border Grid.Row="1" Name="border" ClipToBounds="True">
+            <Image Name="image" Opacity="1" RenderOptions.BitmapScalingMode="NearestNeighbor" Source="C:\Users\Meda\Pictures\Bilder\na.jpg" />
+        </Border>
+
+    </Grid>
+</ResourceDictionary>
